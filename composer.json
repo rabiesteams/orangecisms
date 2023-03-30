@@ -1,0 +1,22 @@
+{
+    "name": "rabiesteams/orangecisms",
+    "description": "Package to send sms with ORANGE API SMS",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rabiesteams\\Orangecisms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SANOGO ADAMA",
+            "email": "adamssano@gmail.com"
+        }
+    ],
+    "require":
+    {
+        "guzzlehttp/guzzle": "^7.5",
+        "illuminate/support": "^9.52"
+    }
+
+}
